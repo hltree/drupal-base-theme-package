@@ -1,0 +1,12 @@
+name: Base theme
+type: theme
+description: This is BaseTheme.
+core: 8.x
+base theme: classy
+libraries:
+  - base/global-styling
+regions:
+  header: Header
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
