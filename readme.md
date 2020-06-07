@@ -1,18 +1,22 @@
-# D8 BaseTheme Package
+# Drupal Base Theme Package
 
 ## About
 
-This is Drupal 8.x BaseTheme Package.
+This is Drupal BaseTheme Package.
+
+## Support
+
+Drupal 9.x
 
 ## Installation
 
 1: Run git clone
 ```
 // Use SSH
-$ git clone git@github.com:hltree/D8_BaseThemePackage.git
+$ git clone git@github.com:hltree/drupal-base-theme-package.git
 
 // Use Https
-$ git clone https://github.com/hltree/D8_BaseThemePackage.git 
+$ git clone https://github.com/hltree/drupal-base-theme-package.git 
 ```
 
 2: Make custom directory in themes
@@ -44,6 +48,6 @@ $ tree
 
 ## Requirement
 
-Drupal 8.x
+Drupal 9.x
 <br />
 PHP 7.x
