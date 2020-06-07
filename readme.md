@@ -6,7 +6,7 @@ This is Drupal BaseTheme Package.
 
 ## Support
 
-Drupal 9.x
+Drupal 8.x
 
 ## Installation
 
@@ -48,6 +48,6 @@ $ tree
 
 ## Requirement
 
-Drupal 9.x
+Drupal 8.x
 <br />
 PHP 7.x
