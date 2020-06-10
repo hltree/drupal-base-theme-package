@@ -51,3 +51,14 @@ $ tree
 Drupal 8.x
 <br />
 PHP 7.x
+
+## Develop
+
+Requirement
+
+Docker
+
+```
+$ cp .env-sample .env
+$ docker-compose up -d
+```
