@@ -20,14 +20,15 @@ services:
     depends_on:
       - db
     hostname: drupal
+    command: mkdir ./data/drupal/sites/default; touch ./data/drupal/sites/default/settings.php
     container_name: drupal
     image: drupal:8-apache
     ports:
       - 8080:80
     restart: always
     volumes:
-      - ./data/drupal_modules:/var/www/html/modules
-      - ./data/drupal_profiles:/var/www/html/profiles
-      - ./data/drupal_themes:/var/www/html/themes
-      - ./data/drupal_sites:/var/www/html/sites
+      - ./data/drupal/modules:/var/www/html/modules
+      - ./data/drupal/profiles:/var/www/html/profiles
+      - ./data/drupal/themes:/var/www/html/themes
+      - ./data/drupal/sites:/var/www/html/sites
 
